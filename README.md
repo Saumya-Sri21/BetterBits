@@ -2,12 +2,14 @@
 
 A modern, responsive habit tracking application built with React.js and TailwindCSS. Track your daily habits, monitor your progress, and build lasting routines with a beautiful and intuitive interface.
 
+#Live Link
+[***Live Link***]([])
+
 ## Features
 
 ### 🎯 Core Functionality
 - **Add Custom Habits**: Create your own personalized habits
 - **Suggested Habits**: Choose from 10 pre-defined habit suggestions
-- **21-Day Tracking**: Track habits for 21 days to form lasting routines
 - **Progress Visualization**: Beautiful circular progress indicators
 - **Streak Tracking**: Monitor your current streak for each habit
 - **Calendar View**: Interactive 21-day calendar with tick/cross functionality
@@ -29,8 +31,8 @@ A modern, responsive habit tracking application built with React.js and Tailwind
 
 ## Technology Stack
 
-- **Frontend**: React.js 19
-- **Styling**: TailwindCSS 4
+- **Frontend**: React.js 
+- **Styling**: TailwindCSS 
 - **State Management**: Redux Toolkit
 - **Routing**: React Router DOM
 - **Build Tool**: Vite
@@ -39,7 +41,7 @@ A modern, responsive habit tracking application built with React.js and Tailwind
 ## Getting Started
 
 ### Prerequisites
-- Node.js (version 16 or higher)
+- Node.js 
 - npm (comes with Node.js)
 
 ### Installation
@@ -107,7 +109,7 @@ A modern, responsive habit tracking application built with React.js and Tailwind
 ```
 src/
 ├── components/          # Reusable UI components
-│   ├── Calender.jsx     # 21-day tracking calendar
+│   ├── Calender.jsx     # calendar
 │   ├── Footer.jsx       # Application footer
 │   ├── InputHabit.jsx   # Custom habit input form
 │   ├── Navbar.jsx       # Navigation bar
@@ -132,23 +134,3 @@ All habit data is stored in the browser's local storage, which means:
 - ✅ No account creation required
 - ✅ Works offline
 - ⚠️ Data is device-specific (not synced across devices)
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-If you have any questions or need support, please contact us through the Contact Us page in the application.
-
----
-
-**Happy Habit Building! 🚀**
